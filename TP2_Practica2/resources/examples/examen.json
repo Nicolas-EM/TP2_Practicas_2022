@@ -1,0 +1,564 @@
+{
+  "events": [
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J1",
+        "coor": [
+          50,
+          50
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J2",
+        "coor": [
+          50,
+          150
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J3",
+        "coor": [
+          50,
+          250
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J4",
+        "coor": [
+          150,
+          100
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 2
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J5",
+        "coor": [
+          150,
+          250
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J6",
+        "coor": [
+          250,
+          100
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J7",
+        "coor": [
+          250,
+          250
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J8",
+        "coor": [
+          250,
+          175
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J9",
+        "coor": [
+          325,
+          100
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J10",
+        "coor": [
+          325,
+          250
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J11",
+        "coor": [
+          400,
+          175
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_junction",
+      "data": {
+        "time": 1,
+        "id": "J12",
+        "coor": [
+          450,
+          175
+        ],
+        "ls_strategy": {
+          "type": "round_robin_lss",
+          "data": {
+            "timeslot": 5
+          }
+        },
+        "dq_strategy": {
+          "type": "move_first_dqs",
+          "data": {
+
+          }
+        }
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r1",
+        "src": "J1",
+        "dest": "J4",
+        "length": 1000,
+        "co2limit": 3000,
+        "maxspeed": 120,
+        "weather": "CLOUDY"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r2",
+        "src": "J2",
+        "dest": "J4",
+        "length": 1000,
+        "co2limit": 2000,
+        "maxspeed": 120,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r3",
+        "src": "J3",
+        "dest": "J5",
+        "length": 1000,
+        "co2limit": 4000,
+        "maxspeed": 120,
+        "weather": "STORM"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r4",
+        "src": "J4",
+        "dest": "J6",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 120,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r5",
+        "src": "J5",
+        "dest": "J7",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 120,
+        "weather": "STORM"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r6",
+        "src": "J6",
+        "dest": "J8",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 120,
+        "weather": "RAINY"
+      }
+    },
+    {
+      "type": "new_city_road",
+      "data": {
+        "time": 1,
+        "id": "r7",
+        "src": "J7",
+        "dest": "J8",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 120,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_inter_city_road",
+      "data": {
+        "time": 1,
+        "id": "r8",
+        "src": "J8",
+        "dest": "J9",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 90,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_inter_city_road",
+      "data": {
+        "time": 1,
+        "id": "r9",
+        "src": "J8",
+        "dest": "J10",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 90,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_inter_city_road",
+      "data": {
+        "time": 1,
+        "id": "r10",
+        "src": "J9",
+        "dest": "J11",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 90,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_inter_city_road",
+      "data": {
+        "time": 1,
+        "id": "r11",
+        "src": "J10",
+        "dest": "J11",
+        "length": 1000,
+        "co2limit": 5000,
+        "maxspeed": 90,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_inter_city_road",
+      "data": {
+        "time": 1,
+        "id": "r12",
+        "src": "J11",
+        "dest": "J12",
+        "length": 800,
+        "co2limit": 5000,
+        "maxspeed": 60,
+        "weather": "SUNNY"
+      }
+    },
+    {
+      "type": "new_vehicle",
+      "data": {
+        "time": 1,
+        "id": "v1",
+        "maxspeed": 80,
+        "class": 3,
+        "itinerary": [
+          "J1",
+          "J4",
+          "J6",
+          "J8",
+          "J10",
+          "J11",
+          "J12"
+        ]
+      }
+    },
+    {
+      "type": "new_vehicle",
+      "data": {
+        "time": 1,
+        "id": "v2",
+        "maxspeed": 70,
+        "class": 2,
+        "itinerary": [
+          "J2",
+          "J4",
+          "J6",
+          "J8",
+          "J9",
+          "J11",
+          "J12"
+        ]
+      }
+    },
+    {
+      "type": "new_vehicle",
+      "data": {
+        "time": 1,
+        "id": "v3",
+        "maxspeed": 120,
+        "class": 5,
+        "itinerary": [
+          "J3",
+          "J5",
+          "J7",
+          "J8",
+          "J9",
+          "J11",
+          "J12"
+        ]
+      }
+    },
+    {
+      "type": "new_vehicle",
+      "data": {
+        "time": 1,
+        "id": "v4",
+        "maxspeed": 90,
+        "class": 4,
+        "itinerary": [
+          "J3",
+          "J5",
+          "J7",
+          "J8",
+          "J10",
+          "J11",
+          "J12"
+        ]
+      }
+    },
+    {
+      "type": "set_weather",
+      "data": {
+        "time": 7,
+        "info": [
+          {
+            "road": "r1",
+            "weather": "CLOUDY"
+          },
+          {
+            "road": "r2",
+            "weather": "CLOUDY"
+          },
+          {
+            "road": "r3",
+            "weather": "CLOUDY"
+          }
+        ]
+      }
+    },
+    {
+      "type": "set_weather",
+      "data": {
+        "time": 10,
+        "info": [
+          {
+            "road": "r3",
+            "weather": "RAINY"
+          }
+        ]
+      }
+    },
+    {
+      "type": "set_weather",
+      "data": {
+        "time": 14,
+        "info": [
+          {
+            "road": "r3",
+            "weather": "STORM"
+          }
+        ]
+      }
+    },
+    {
+      "type": "set_weather",
+      "data": {
+        "time": 14,
+        "info": [
+          {
+            "road": "r4",
+            "weather": "STORM"
+          }
+        ]
+      }
+    }
+  ]
+}
